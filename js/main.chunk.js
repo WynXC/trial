@@ -17,9 +17,9 @@
                     c = n(3),
                     o = n(30),
                     i = n(62),
-                    u = new o.d.PublicKey("metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"),
+                    u = new o.d.PublicKey("cndyAnrLdpjq1Ssp1z8xxDsB8dxe7u4HL5Nxi2K5WXZ"),
                     s = new o.d.PublicKey("ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"),
-                    p = new o.d.PublicKey("cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ"),
+                    p = new o.d.PublicKey("metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"),
                     b = function() {
                         var e = Object(c.a)(a.a.mark((function e(t, n, r) {
                             var o, i, u, s, p, b = arguments;
@@ -579,8 +579,8 @@
                 C = n(336),
                 W = n(597),
                 N = new M.d.PublicKey("AwVqhriLVgDzQQE4Jxz1q9uuRdx1LR6gjKdqPVWNKVto"),
-                D = new M.d.PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"),
-                Y = new M.d.PublicKey("gatem74V238djXdzWnJf94Wo1DcnuGkfijbf3AuBhfs"),
+                D = new M.d.PublicKey("GEJPSxYDUhEjcb8xdnKRV78TkawYyD6jMa5Yq9ENLunW"),
+                Y = new M.d.PublicKey("B9krQx8viSfhQe3bbYdqYuWAk8aoGNx7BQnMCumS2ALL"),
                 z = "mainnet-beta",
                 _ = new M.d.Connection("https://api.mainnet-beta.solana.com/"),
                 U = parseInt("1635893271", 10),

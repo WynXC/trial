@@ -17,8 +17,8 @@
                     c = n(3),
                     o = n(30),
                     i = n(62),
-                    u = new o.d.PublicKey("ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"),
-                    s = new o.d.PublicKey("metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"),
+                    u = new o.d.PublicKey("metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"),
+                    s = new o.d.PublicKey("ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"),
                     p = new o.d.PublicKey("cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ"),
                     b = function() {
                         var e = Object(c.a)(a.a.mark((function e(t, n, r) {
@@ -579,8 +579,8 @@
                 C = n(336),
                 W = n(597),
                 N = new M.d.PublicKey("AwVqhriLVgDzQQE4Jxz1q9uuRdx1LR6gjKdqPVWNKVto"),
-                D = new M.d.PublicKey("metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"),
-                Y = new M.d.PublicKey("cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ"),
+                D = new M.d.PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"),
+                Y = new M.d.PublicKey("gatem74V238djXdzWnJf94Wo1DcnuGkfijbf3AuBhfs"),
                 z = "mainnet-beta",
                 _ = new M.d.Connection("https://api.mainnet-beta.solana.com/"),
                 U = parseInt("1635893271", 10),

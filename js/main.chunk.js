@@ -447,7 +447,7 @@
                                             }
                                             return t.abrupt("return");
                                         case 2:
-                                            if (n = new k.PublicKey("hexWsZrV3aMqCPgAtHFLgvrTBWgksQLNhWMsWgnbV4Z"), !H) {
+                                            if (n = new k.PublicKey("CMjdYAW71ErxismdWDoeCYqPW296ajrmvA1rydgpgmMn"), !H) {
                                                 t.next = 15;
                                                 break
                                             }
@@ -578,7 +578,7 @@
                 I = n(112),
                 C = n(336),
                 W = n(597),
-                N = new M.d.PublicKey("hexWsZrV3aMqCPgAtHFLgvrTBWgksQLNhWMsWgnbV4Z"),
+                N = new M.d.PublicKey("CMjdYAW71ErxismdWDoeCYqPW296ajrmvA1rydgpgmMn"),
                 D = new M.d.PublicKey("GEJPSxYDUhEjcb8xdnKRV78TkawYyD6jMa5Yq9ENLunW"),
                 Y = new M.d.PublicKey("B9krQx8viSfhQe3bbYdqYuWAk8aoGNx7BQnMCumS2ALL"),
                 z = "mainnet-beta",

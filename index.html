@@ -71,7 +71,7 @@
                         </div>
                         <div class="price-box">
                             <div id="price-total"><span>3</span> SOL</div>
-                            <div>2 NFT max per transaction</div>
+                            <div>1 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -112,7 +112,7 @@
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 2 ? itemCount + 1 : 2;
+            itemCount = itemCount < 1 ? itemCount + 1 : 1;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });

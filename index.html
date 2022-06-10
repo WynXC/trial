@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta name="description" content="NTC" data-react-helmet="true" />
     <meta name="theme-color" content="#000000" />
-    <meta content="🌐 deadapedudes.io/mint" property="og:title">
+    <meta content="🌐 yutomo.net/mint" property="og:title">
     <meta content="
-    📣  Dead Ape Dudes Mint is now LIVE!
+    📣  Yūtomo Mint is now LIVE!
 
-    ◎   Mint Price: 0 SOL" property="og:description">
-    <meta content="https://pbs.twimg.com/profile_banners/1319749307654963201/1654450413/1500x500" property="og:image">
+    ◎   Mint Price: 1.7 SOL" property="og:description">
+    <meta content="https://pbs.twimg.com/profile_banners/1468691124583862287/1654448868/1500x500" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
-    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/155" />
+    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/156" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Dead Ape Dudes</title>
-    <link rel="shortcut icon" href="https://cdn.discordapp.com/icons/964908902078615582/a_09a09dc98acfaef2bb5fa1480f14c5cf.webp?size=80" />
+    <title>Yūtomo</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1533495568185577473/6SpsMTxG_400x400.jpg" />
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -52,12 +52,12 @@
         <div class="main-area">
 
             <div class="main-area__right">
-                <h2 class="right-title">Dead Ape Dudes</h2>
+                <h2 class="right-title">Yūtomo</h2>
 
                 <div class="right-list">
                     <li>
                         <div class="text">
-                            Trust me, your not dead yet.. 777 Dead Apes Roaming the Solana Ecosystem.
+                            4,000 Yuto’s coming soon to SOLANA… It’s bigger than us
                     </li>
                     </div>
 
@@ -68,8 +68,8 @@
                             <a href="javascript:void(0)" class="plus-btn">+</a>
                         </div>
                         <div class="price-box">
-                            <div id="price-total"><span>0</span> SOL</div>
-                            <div>5 NFT max per transaction</div>
+                            <div id="price-total"><span>1.7</span> SOL</div>
+                            <div>2 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -89,7 +89,7 @@
                 </style>
                 <div class="main-area__left">
                     <div class="slider-area">
-                        <img class="animation" src="https://cdn.discordapp.com/attachments/978808310092415036/983075216253153280/pixil-frame-0_2.png" alt="GiF">
+                        <img class="animation" src="https://cdn.discordapp.com/attachments/949745661799182386/955836280212717638/ICO5_7.gif" alt="GiF">
                     </div>
                 </div>
             </div>
@@ -105,12 +105,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 0;
+        let itemPriceSelected = 1.7;
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 5 ? itemCount + 1 : 5;
+            itemCount = itemCount < 2 ? itemCount + 1 : 2;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });

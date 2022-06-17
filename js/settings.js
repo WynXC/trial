@@ -1,28 +1,28 @@
 const collectionInfo = {
-    name: "Stuck In A Dream",
+    name: "Sky Buddies",
     title: "{name}",
-    date: "16.06.2022",
+    date: "17.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "1.gif",
+        preview: "logo.jpg",
         favicon: "logo.jpg",
     },
     background: {
         type: "image",
-        image: "background.2b0ba4d7.png",
+        image: "bg.jpg",
         video: "",
         color: "#4E4E6D",
     }
 }
 const mintInfo = {
-    price: 0.0096,
+    price: 0.069,
     totalSupply: 100,
-    toFixed: 4,
+    toFixed: 3,
     minUnits: 1,
-    maxUnits: 3,
+    maxUnits: 5,
     askMintLoop: true,
 }
 

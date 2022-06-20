@@ -1,28 +1,28 @@
 const collectionInfo = {
-    name: "Sky Buddies",
+    name: "Chill Dogs Club",
     title: "{name}",
-    date: "17.06.2022",
+    date: "20.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "logo.jpg",
+        preview: "1.gif",
         favicon: "logo.jpg",
     },
     background: {
         type: "image",
-        image: "bg.jpg",
+        image: "bg.png",
         video: "",
         color: "#4E4E6D",
     }
 }
 const mintInfo = {
-    price: 0.069,
+    price: 1,
     totalSupply: 100,
-    toFixed: 3,
+    toFixed: 0,
     minUnits: 1,
-    maxUnits: 5,
+    maxUnits: 3,
     askMintLoop: true,
 }
 

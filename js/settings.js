@@ -1,7 +1,7 @@
 const collectionInfo = {
-    name: "SYNERGY ROBOTS",
+    name: "Mystic Men",
     title: "{name}",
-    date: "23.06.2022",
+    date: "24.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
@@ -12,17 +12,17 @@ const collectionInfo = {
     },
     background: {
         type: "image",
-        image: "bg.png",
+        image: "bg.jpg",
         video: "",
         color: "#4E4E6D",
     }
 }
 const mintInfo = {
     price: 0,
-    totalSupply: 100,
+    totalSupply: 10000,
     toFixed: 0,
     minUnits: 1,
-    maxUnits: 3,
+    maxUnits: 1,
     askMintLoop: true,
 }
 

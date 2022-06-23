@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Chill Dogs Club",
+    name: "SYNERGY ROBOTS",
     title: "{name}",
-    date: "20.06.2022",
+    date: "23.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "1.gif",
+        preview: "logo.jpg",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,11 +18,11 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 1,
+    price: 0,
     totalSupply: 100,
     toFixed: 0,
     minUnits: 1,
-    maxUnits: 1,
+    maxUnits: 3,
     askMintLoop: true,
 }
 

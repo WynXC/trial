@@ -1,13 +1,13 @@
 const collectionInfo = {
-    name: "Mystic Men",
+    name: "Little Late",
     title: "{name}",
-    date: "24.06.2022",
+    date: "26.06.2022",
     socialMedia: {
         discord: "https://discord.com/",
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "logo.jpg",
+        preview: "1.gif",
         favicon: "logo.jpg",
     },
     background: {
@@ -18,7 +18,7 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0,
+    price: 1,
     totalSupply: 100,
     toFixed: 0,
     minUnits: 1,
